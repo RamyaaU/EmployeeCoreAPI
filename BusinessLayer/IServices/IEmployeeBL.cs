@@ -12,6 +12,10 @@ namespace BusinessLayer.IServices
 
         bool EditEmployee(UpdateModel updatedEmployee, int EmpId);
 
+        /// <summary>
+        /// Gets all employee.
+        /// </summary>
+        /// <returns></returns>
         List<CompanyEmployee> GetAllEmployee();
 
         bool RegisterEmployee(RegisterModel employee);

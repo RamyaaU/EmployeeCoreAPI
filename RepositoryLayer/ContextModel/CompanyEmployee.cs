@@ -9,6 +9,13 @@ namespace RepositoryLayer.ContextModel
 
     public class CompanyEmployee
     {
+
+        /// <summary>
+        /// Gets or sets the employee identifier.
+        /// </summary>
+        /// <value>
+        /// The employee identifier.
+        /// </value>
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 

@@ -43,6 +43,10 @@ namespace RepositoryLayer.Repository
             }
         }
 
+        /// <summary>
+        /// Gets all employee.
+        /// </summary>
+        /// <returns></returns>
         public List<EmployeeModel> GetAllEmployee()
         {
             try
