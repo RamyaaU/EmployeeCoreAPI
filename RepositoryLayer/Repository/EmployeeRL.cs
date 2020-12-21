@@ -8,6 +8,7 @@ using System.Text;
 
 namespace RepositoryLayer.Repository
 {
+
     public class EmployeeRL : IEmployeeRL
     {
         private readonly EmployeeContext context;
